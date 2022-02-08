@@ -1,0 +1,43 @@
+.color-blocks {
+    margin: 145px 0px 0px 72px;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    &__item {
+        display: flex;
+    }
+    &__block{
+        min-width: 70px;
+        height: 70px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        background:#1F2041;
+        &_75 {
+            opacity: 0.75;
+        }
+        &_50 {
+            opacity: 0.5;
+        }
+        &_25 {
+            opacity: 0.25;
+        }
+        &_5 {
+            opacity: 0.05;
+        }
+        &_purple {
+            background: #BC9CFF;
+        }
+        &_green {
+            background:#6FCF97;
+        }
+    }
+    &__name {
+        font-weight: bold;
+        margin: 9px 0px 0px 40px;    
+        font-size: 19px;    
+        line-height: 28px;
+    }
+    &__codename {
+        font-weight: normal;
+    }
+}
